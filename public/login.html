@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>localCam · Sign in</title>
+<link rel="stylesheet" href="/style.css">
+<main class="card login">
+  <h1>localCam</h1>
+  <p>Enter the Wi‑Fi camera password.</p>
+  <form method="post" action="/login">
+    <label>Password <input name="password" type="password" minlength="8" required autofocus></label>
+    <button>View camera</button>
+  </form>
+  <p class="error" id="error" hidden>Wrong password.</p>
+</main>
+<script src="/app.js"></script>
+</html>

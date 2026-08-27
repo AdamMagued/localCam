@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>localCam · Broadcast</title>
+<link rel="stylesheet" href="/style.css">
+<main>
+  <header><h1>localCam broadcaster</h1><a href="/">Viewer</a></header>
+  <section class="controls">
+    <label>Camera <select id="camera"></select></label>
+    <button id="start">Start camera</button>
+    <span id="status">Not broadcasting</span>
+  </section>
+  <section class="screen"><video id="preview" autoplay muted playsinline></video></section>
+  <canvas id="canvas" hidden></canvas>
+</main>
+<script src="/app.js"></script>
+</html>
